@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="pesquisa">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Coloque sua localização">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="prev">
+            <img src="" alt="">
+            <p class="temperatura"></p>
+            <p class="desc"></p>
+        </div>
+
+        <div class="detalhes">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+
+                <div class="Vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Velocidade do Vento</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nao-encontrado">
+        <img src="./img/404.png" alt="">
+        <p>Ops... Parece que este local nao existe, por favor tente novamente!!</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
